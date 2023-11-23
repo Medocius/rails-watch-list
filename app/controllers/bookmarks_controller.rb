@@ -16,7 +16,6 @@ class BookmarksController < ApplicationController
   end
 
   def destroy
-    @
   end
 
   private
