@@ -10,3 +10,18 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+@import "banner";
+
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: red;
+}
+
+div {
+  margin-bottom: 100px;
+  position: relative
+}

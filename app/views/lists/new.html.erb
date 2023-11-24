@@ -1,3 +1,12 @@
+<div class="banner">
+  <div>
+    <h1>Welcome to the site!</h1>
+    <h5>Your favorite movies everywhere</h5>
+    <p><%= link_to "All lists", lists_path, id: "all_lists", class: "btn btn-primary" %></p>
+    <p><%= link_to "Create new list", new_list_path, id: "new_list", class: "btn btn-primary" %></p>
+  </div>
+</div>
+
 <h1>Add a list to our database:</h1>
 
-<%= render "form", list: @list %>
+<%= render "form", list: @list, id: "form" %>
